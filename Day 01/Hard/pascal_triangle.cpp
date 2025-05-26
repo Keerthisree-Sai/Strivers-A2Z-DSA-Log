@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// 1. Finding the number at given row and column
+// 1. Finding the value at given row and column
 long long numAtRnC(int row, int col){
     long long res = 1;
     for(int i=0;i<col;i++){
@@ -12,25 +12,29 @@ long long numAtRnC(int row, int col){
 }
 
 // 2. Printing the nth row
-vector<int> findNthRow(int row){
-    vector<int> v;
-    v.push_back(1);
+void findNthRow(int row){
+    cout<<1<<" ";
     long long res = 1;
     for(int col=1;col<row;col++){
         res = res*(row-col);
         res = res/col;
-        v.push_back(res);
+        cout<<res<<" ";
     }
-    return v;
+    cout << endl;
 }
 
-// 3. Printing n rows of the Pascal Triangle
-vector<vector<int>> printTriangle(int row){
-    vector<vector<int>> ans;
-    for(int i=0;i<row;i++){
-        ans.push_back(findNthRow(i+1));
+// 3. Printing first n rows of the Pascal Triangle
+void printTriangle(int rows) {
+    for (int i = 0; i < rows; i++) {
+        long long res = 1;
+        cout << res << " ";
+        for (int col = 1; col <= i; col++) {
+            res = res * (i - col + 1);
+            res = res / col;
+            cout << res << " ";
+        }
+        cout << endl;
     }
-    return ans;
 }
 
 int main(){
@@ -51,23 +55,15 @@ int main(){
             int row;
             cout<<"Enter the number of the row you want to print: ";
             cin>>row;
-            vector<int> ans = findNthRow(row);
-            for(auto i:ans){
-                cout<<i<<" ";
-            }
+            findNthRow(row);
             break;
         }
         case 3:{
             int rows;
             cout<<"Enter number of the rows you want to print: ";
             cin>>rows;
-            vector<vector<int>> ans = printTriangle(rows);
-            for(auto row:ans){
-                for(int ele:row){
-                    cout<<ele<<" ";
-                }
-                cout<<endl;
-            }
+            printTriangle(rows);
+            break;
         }
     }
 }
