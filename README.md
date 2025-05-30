@@ -63,3 +63,10 @@ This isn't just about solving problems — it's about solving them smartly:
 | Easy       | Remove duplicates from Sorted array        | [View Solution](Day%2004/Easy/)   |
 | Medium     | Kadane's Algorithm, maximum subarray sum   | [View Solution](Day%2004/Medium/) |
 | Hard       | 4-Sum Problem                              | [View Solution](Day%2004/Hard/)   |
+
+### Day 5
+| Difficulty | Problem Name                               | Link                          |
+|------------|--------------------------------------------|-------------------------------|
+| Easy       | Left Rotate an array by one place        | [View Solution](Day%2005/Easy/)   |
+| Medium     | Stock Buy and Sell   | [View Solution](Day%2005/Medium/) |
+| Hard       | Largest Subarray with 0 Sum                              | [View Solution](Day%2005/Hard/)   |
