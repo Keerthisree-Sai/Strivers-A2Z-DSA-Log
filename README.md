@@ -32,7 +32,7 @@ This isn't just about solving problems — it's about solving them smartly:
 
 ## Inspired By
 
-- [Strivers A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
+[Strivers A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 
 ## Daily Progress Log
 
