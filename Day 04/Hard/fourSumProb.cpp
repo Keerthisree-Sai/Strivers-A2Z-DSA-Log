@@ -74,7 +74,7 @@ vector<vector<int>> fourSumOptimal(vector<int> &arr, int n, int target){
                     k++;
                     l--;
                     while(k<l && arr[k]==arr[k-1]) k++;
-                    while(k<l && arr[l]==arr[l-1]) l--;
+                    while(k<l && arr[l]==arr[l+1]) l--;
                 }
             }
         }
