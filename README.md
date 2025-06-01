@@ -70,3 +70,10 @@ This isn't just about solving problems — it's about solving them smartly:
 | Easy       | Left Rotate an array by one place        | [View Solution](Day%2005/Easy/)   |
 | Medium     | Stock Buy and Sell   | [View Solution](Day%2005/Medium/) |
 | Hard       | Largest Subarray with 0 Sum                              | [View Solution](Day%2005/Hard/)   |
+
+### Day 6
+| Difficulty | Problem Name                               | Link                          |
+|------------|--------------------------------------------|-------------------------------|
+| Easy       | Left rotate an array by D places        | [View Solution](Day%2006/Easy/)   |
+| Medium     | Rearrange the array in alternating positive and negative items   | [View Solution](Day%2006/Medium/) |
+| Hard       | Count number of subarrays with given xor K                             | [View Solution](Day%2006/Hard/)   |
